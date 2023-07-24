@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int pas[100];
+	int pass[100];
 	int i, sum, n;
 
 	sum = 0;
