@@ -18,7 +18,7 @@ int num, j, result;
 	return (1);
 	}
 	num = atoi(argv[1]);
-	reult = 0;
+	result = 0;
 	if (num < 0)
 	{
 	printf("0\n");
