@@ -5,7 +5,7 @@
 #define ERR_MSG "Error"
 
 /**
- * is_digit - a fnction that checks if a string contains
+ * is_digit - a function that checks if a string contains
  * a non-digit char
  * @s: the string to be evaluated
  * Return: 0 if a non-digit is present, 1 otherwise
@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 		result[i] = 0;
 	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
-		digit1 = s1[llen1] - '0';
+		digit1 = s1[len1] - '0';
 		carry = 0;
 		for (len2 = _strlen(s2) - 1; len2 >= 0; len2--)
 		{
